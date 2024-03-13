@@ -1,0 +1,1099 @@
+[10:51:55] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[10:51:55] [Server thread/INFO]: Loading properties
+[10:51:55] [Server thread/INFO]: Default game type: SURVIVAL
+[10:51:55] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[10:51:56] [Server thread/INFO]: Debug logging is disabled
+[10:51:56] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[10:51:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[10:51:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:51:56] [Server thread/INFO]: Data value allowed items: 
+[10:51:56] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[10:51:56] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[10:51:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[10:51:56] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[10:51:56] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[10:51:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[10:51:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[10:51:56] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[10:51:56] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[10:51:56] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[10:51:56] [Server thread/INFO]: Generating keypair
+[10:51:56] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[10:51:56] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[10:51:56] [Server thread/INFO]: Using default channel type
+[10:51:56] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[10:51:56] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[10:51:56] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[10:51:56] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[10:51:56] [Server thread/INFO]: [freemannlifesteal] Loading freemannlifesteal v1.0
+[10:51:56] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[10:51:56] [Server thread/INFO]: [DriveBackupV2] Loading DriveBackupV2 v1.6.1
+[10:51:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:51:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:51:56] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[10:51:56] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[10:51:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:51:56] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[10:51:57] [Server thread/INFO]: Preparing level "world"
+[10:51:57] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:51:57] [Server thread/INFO]: Mob Spawn Range: 4
+[10:51:57] [Server thread/INFO]: Anti X-Ray: true
+[10:51:57] [Server thread/INFO]: 	Engine Mode: 1
+[10:51:57] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[10:51:57] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[10:51:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:51:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[10:51:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:51:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[10:51:57] [Server thread/INFO]: Random Lighting Updates: false
+[10:51:57] [Server thread/INFO]: Structure Info Saving: true
+[10:51:57] [Server thread/INFO]: Sending up to 10 chunks per packet
+[10:51:57] [Server thread/INFO]: Max Entity Collisions: 8
+[10:51:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[10:51:57] [Server thread/INFO]: Max TNT Explosions: 100
+[10:51:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:51:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:51:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:51:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:51:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:51:57] [Server thread/INFO]: View Distance: 4
+[10:51:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:51:57] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[10:51:57] [Server thread/INFO]: Clear tick list: false
+[10:51:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:51:57] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:51:57] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[10:51:57] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[10:51:57] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[10:51:57] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[10:51:57] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[10:51:57] [Server thread/INFO]: Water over lava flow speed: 5
+[10:51:57] [Server thread/INFO]: Fix TNT cannons: false
+[10:51:57] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[10:51:57] [Server thread/INFO]: Keep spawn chunk loaded: true
+[10:51:57] [Server thread/INFO]: World async lighting: false
+[10:51:57] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[10:51:57] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[10:51:57] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[10:51:57] [Server thread/INFO]: Mob Spawn Range: 4
+[10:51:57] [Server thread/INFO]: Anti X-Ray: true
+[10:51:57] [Server thread/INFO]: 	Engine Mode: 1
+[10:51:57] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[10:51:57] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[10:51:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:51:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[10:51:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:51:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[10:51:57] [Server thread/INFO]: Random Lighting Updates: false
+[10:51:57] [Server thread/INFO]: Structure Info Saving: true
+[10:51:57] [Server thread/INFO]: Sending up to 10 chunks per packet
+[10:51:57] [Server thread/INFO]: Max Entity Collisions: 8
+[10:51:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[10:51:57] [Server thread/INFO]: Max TNT Explosions: 100
+[10:51:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:51:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:51:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:51:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:51:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:51:57] [Server thread/INFO]: View Distance: 4
+[10:51:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:51:57] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[10:51:57] [Server thread/INFO]: Clear tick list: false
+[10:51:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:51:57] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[10:51:57] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[10:51:57] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[10:51:57] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[10:51:57] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[10:51:57] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[10:51:57] [Server thread/INFO]: Water over lava flow speed: 5
+[10:51:57] [Server thread/INFO]: Fix TNT cannons: false
+[10:51:57] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[10:51:57] [Server thread/INFO]: Keep spawn chunk loaded: true
+[10:51:57] [Server thread/INFO]: World async lighting: false
+[10:51:57] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[10:51:57] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[10:51:57] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:51:57] [Server thread/INFO]: Mob Spawn Range: 4
+[10:51:57] [Server thread/INFO]: Anti X-Ray: true
+[10:51:57] [Server thread/INFO]: 	Engine Mode: 1
+[10:51:57] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[10:51:57] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[10:51:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:51:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:51:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[10:51:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:51:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[10:51:57] [Server thread/INFO]: Random Lighting Updates: false
+[10:51:57] [Server thread/INFO]: Structure Info Saving: true
+[10:51:57] [Server thread/INFO]: Sending up to 10 chunks per packet
+[10:51:57] [Server thread/INFO]: Max Entity Collisions: 8
+[10:51:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[10:51:57] [Server thread/INFO]: Max TNT Explosions: 100
+[10:51:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:51:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:51:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:51:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:51:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:51:57] [Server thread/INFO]: View Distance: 4
+[10:51:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:51:57] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[10:51:57] [Server thread/INFO]: Clear tick list: false
+[10:51:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:51:57] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:51:57] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[10:51:57] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[10:51:57] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[10:51:57] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[10:51:57] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[10:51:57] [Server thread/INFO]: Water over lava flow speed: 5
+[10:51:57] [Server thread/INFO]: Fix TNT cannons: false
+[10:51:57] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[10:51:57] [Server thread/INFO]: Keep spawn chunk loaded: true
+[10:51:57] [Server thread/INFO]: World async lighting: false
+[10:51:57] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[10:51:57] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[10:51:57] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7148960368127392557)
+[10:51:58] [Server thread/INFO]: Preparing spawn area: 9%
+[10:51:59] [Server thread/INFO]: Preparing spawn area: 52%
+[10:52:00] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7148960368127392557)
+[10:52:01] [Server thread/INFO]: Preparing spawn area: 17%
+[10:52:02] [Server thread/INFO]: Preparing spawn area: 73%
+[10:52:03] [Server thread/INFO]: Preparing start region for level 2 (Seed: 7148960368127392557)
+[10:52:03] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[10:52:03] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[10:52:03] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[10:52:03] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[10:52:03] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[10:52:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[10:52:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[10:52:03] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[10:52:03] [Server thread/INFO]: [freemannlifesteal] Enabling freemannlifesteal v1.0
+[10:52:03] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[10:52:03] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[10:52:03] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[10:52:04] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[10:52:04] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[10:52:04] [Server thread/INFO]: [DriveBackupV2] Enabling DriveBackupV2 v1.6.1
+[10:52:04] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mConfig loaded![m
+
+[10:52:04] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mScheduling a backup to run every 60 minutes[m
+
+[10:52:04] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mMetrics started[m
+
+[10:52:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:52:04] [Server thread/INFO]: Done (7.655s)! For help, type "help" or "?"
+[10:52:04] [Server thread/INFO]: Timings Reset
+[10:52:04] [Craft Scheduler Thread - 1/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mChecking for updates...[m
+
+[10:52:05] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[10:52:05] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[10:52:05] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[11:24:05] [Thread-8/INFO]: UUID of player Dude is c8e02bb3-0fd2-341d-8414-ea91971b2d00
+[11:24:05] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mEnabling automatic backups[m
+
+[11:24:05] [Server thread/INFO]: Dude[/[0:0:0:0:0:0:0:1]:48068] logged in with entity id 710 at ([world]177.61391687298314, 66.0, 336.23081337816416)
+[11:24:42] [Server thread/INFO]: Dude issued server command: /home base
+[11:25:54] [Server thread/INFO]: Dude lost connection: Disconnected
+[11:25:54] [Server thread/INFO]: Dude left the game.
+[11:26:11] [Thread-9/INFO]: UUID of player Dude is c8e02bb3-0fd2-341d-8414-ea91971b2d00
+[11:26:11] [Server thread/INFO]: Dude[/[0:0:0:0:0:0:0:1]:46022] logged in with entity id 1006 at ([world]490.46548443327106, 115.0, 839.2754722149863)
+[11:26:27] [Thread-10/INFO]: UUID of player Help434343 is 0109ceb8-ace9-3ce5-b542-91624a87bdc5
+[11:26:27] [Server thread/INFO]: Help434343[/[0:0:0:0:0:0:0:1]:40854] logged in with entity id 1067 at ([world]467.2804310269239, 115.0, 844.822185446455)
+[11:27:22] [Async Chat Thread - #0/INFO]: <Help434343> parker said he would give my sword if i gave him a new one[m
+
+[11:27:50] [Server thread/INFO]: Dude lost connection: Disconnected
+[11:27:50] [Server thread/INFO]: Dude left the game.
+[11:28:45] [Thread-12/INFO]: UUID of player kotalkleen is 5bbbd766-86c5-364d-bda1-89fcdd0008bc
+[11:28:45] [Server thread/INFO]: kotalkleen[/[0:0:0:0:0:0:0:1]:58856] logged in with entity id 1388 at ([world]220.60415468312192, 62.0, 296.4803297138688)
+[11:30:19] [Server thread/INFO]: Help434343 issued server command: /home Mine
+[11:31:10] [Server thread/INFO]: Help434343 lost connection: Disconnected
+[11:31:10] [Server thread/INFO]: Help434343 left the game.
+[11:31:52] [Thread-13/INFO]: UUID of player Help434343 is 0109ceb8-ace9-3ce5-b542-91624a87bdc5
+[11:31:52] [Server thread/INFO]: Help434343[/[0:0:0:0:0:0:0:1]:35960] logged in with entity id 2302 at ([world]-41.29319284249088, 11.0, 274.69999998807907)
+[11:32:00] [Async Chat Thread - #1/INFO]: <kotalkleen> oh no[m
+
+[11:32:07] [Server thread/INFO]: Help434343 lost connection: Disconnected
+[11:32:07] [Server thread/INFO]: Help434343 left the game.
+[11:33:14] [Thread-14/INFO]: UUID of player Help434343 is 0109ceb8-ace9-3ce5-b542-91624a87bdc5
+[11:33:14] [Server thread/INFO]: Help434343[/[0:0:0:0:0:0:0:1]:45188] logged in with entity id 2512 at ([world]-41.29319284249088, 11.0, 274.69999998807907)
+[11:33:33] [Async Chat Thread - #2/INFO]: <kotalkleen> can someone[m
+
+[11:35:12] [Server thread/INFO]: kotalkleen lost connection: Disconnected
+[11:35:12] [Server thread/INFO]: kotalkleen left the game.
+[11:40:11] [Thread-15/INFO]: UUID of player special_friend is d6b081a3-ae38-3ea4-8097-841a61cd373f
+[11:40:11] [Server thread/INFO]: special_friend[/[0:0:0:0:0:0:0:1]:51876] logged in with entity id 3655 at ([world]130.69999998807907, 71.0, 259.4945197302927)
+[11:40:44] [Thread-16/INFO]: UUID of player kotalkleen is 5bbbd766-86c5-364d-bda1-89fcdd0008bc
+[11:40:44] [Server thread/INFO]: kotalkleen[/[0:0:0:0:0:0:0:1]:41688] logged in with entity id 3807 at ([world]491.7606570251142, 62.0, 133.17486818177235)
+[11:41:03] [Server thread/INFO]: special_friend issued server command: /sethome cooler
+[11:41:09] [Thread-17/INFO]: UUID of player Dude is c8e02bb3-0fd2-341d-8414-ea91971b2d00
+[11:41:09] [Server thread/INFO]: Dude[/[0:0:0:0:0:0:0:1]:56146] logged in with entity id 3908 at ([world]474.3507383873919, 115.0, 842.6999999880791)
+[11:41:20] [Async Chat Thread - #3/INFO]: <kotalkleen> yoo[m
+
+[11:41:32] [Async Chat Thread - #3/INFO]: <Dude> hey[m
+
+[11:41:36] [Async Chat Thread - #3/INFO]: <kotalkleen> hi[m
+
+[11:41:40] [Server thread/INFO]: Help434343 issued server command: /home Base
+[11:41:40] [Thread-18/INFO]: UUID of player yourdad11 is 6c23efa0-d1a9-363e-a6d1-e0ff1b43678d
+[11:41:40] [Server thread/INFO]: yourdad11[/[0:0:0:0:0:0:0:1]:34760] logged in with entity id 4065 at ([world]-2145.569035949597, 103.0, -760.5357445708214)
+[11:42:24] [Server thread/INFO]: special_friend issued server command: /tpa Dude
+[11:42:25] [Async Chat Thread - #3/INFO]: <Dude> davis stop putting cobble stone in the chest we have too muc[m
+
+[11:42:29] [Async Chat Thread - #3/INFO]: <kotalkleen> im finally outside the jungle[m
+
+[11:42:32] [Server thread/INFO]: Dude issued server command: /tpaccept
+[11:42:33] [Async Chat Thread - #3/INFO]: <kotalkleen> yayy[m
+
+[11:42:40] [Async Chat Thread - #3/INFO]: <Help434343> its useful tho[m
+
+[11:43:00] [Async Chat Thread - #3/INFO]: <kotalkleen> yo, can some one tp me to them[m
+
+[11:43:05] [Async Chat Thread - #3/INFO]: <Dude> where did the gold go[m
+
+[11:43:06] [Server thread/INFO]: kotalkleen issued server command: /
+[11:43:15] [Async Chat Thread - #3/INFO]: <Help434343> idk[m
+
+[11:43:20] [Async Chat Thread - #3/INFO]: <Dude> ok do /tpa dude[m
+
+[11:43:25] [Thread-19/INFO]: UUID of player Imyou_pops is efd578b1-8269-363f-8fcf-202b68966765
+[11:43:25] [Server thread/INFO]: Imyou_pops[/[0:0:0:0:0:0:0:1]:50922] logged in with entity id 4426 at ([world]-1607.699999988079, 95.0, -531.3665564100588)
+[11:43:27] [Server thread/INFO]: kotalkleen issued server command: /tpa
+[11:43:33] [Thread-20/INFO]: UUID of player mb_Max is 506a9395-5364-36d5-a13c-bec911986e98
+[11:43:33] [Server thread/INFO]: mb_Max[/[0:0:0:0:0:0:0:1]:53124] logged in with entity id 4547 at ([world]132.02083186744557, 5.0, 235.95935325697758)
+[11:43:45] [Server thread/INFO]: kotalkleen issued server command: /tpa help434343
+[11:43:50] [Server thread/INFO]: Help434343 issued server command: /tpaccept
+[11:44:07] [Server thread/INFO]: kotalkleen issued server command: /tpa help434343
+[11:44:10] [Server thread/INFO]: Help434343 issued server command: /tpaccept
+[11:44:15] [Async Chat Thread - #3/INFO]: <kotalkleen> ok tnx[m
+
+[11:44:16] [Server thread/INFO]: kotalkleen was slain by Help434343
+[11:44:18] [Server thread/INFO]: Imyou_pops issued server command: /tpa yourdad11
+[11:44:20] [Server thread/INFO]: yourdad11 issued server command: /tpaccept
+[11:44:25] [Async Chat Thread - #3/INFO]: <Help434343> oops[m
+
+[11:44:27] [Async Chat Thread - #3/INFO]: <Help434343> misclick[m
+
+[11:44:29] [Server thread/INFO]: kotalkleen issued server command: /back
+[11:44:37] [Async Chat Thread - #3/INFO]: <kotalkleen> you fine[m
+
+[11:44:39] [Server thread/INFO]: Imyou_pops issued server command: /tpa yourdad11
+[11:44:41] [Server thread/INFO]: yourdad11 issued server command: /tpaccept
+[11:44:43] [Server thread/INFO]: mb_Max issued server command: /tell help434343 was it actully
+[11:44:49] [Server thread/INFO]: Help434343 lost connection: Disconnected
+[11:44:49] [Server thread/INFO]: Help434343 left the game.
+[11:44:54] [Server thread/INFO]: Dude issued server command: /tell help434343 bro that wasnt a misckilck ;)
+[11:44:54] [Server thread/INFO]: [Dude: That player cannot be found]
+[11:45:05] [Async Chat Thread - #3/INFO]: <Dude> what do you want[m
+
+[11:45:06] [Async Chat Thread - #3/INFO]: <kotalkleen> friend?[m
+
+[11:45:15] [Async Chat Thread - #3/INFO]: <Dude> our team is full[m
+
+[11:45:18] [Async Chat Thread - #3/INFO]: <kotalkleen> ok[m
+
+[11:45:28] [Async Chat Thread - #3/INFO]: <kotalkleen> i came for my stuff[m
+
+[11:45:35] [Async Chat Thread - #3/INFO]: <kotalkleen> i died here[m
+
+[11:45:37] [Async Chat Thread - #3/INFO]: <Dude> davis has it not me[m
+
+[11:45:42] [Async Chat Thread - #3/INFO]: <kotalkleen> oh[m
+
+[11:46:16] [Server thread/INFO]: Dude issued server command: /tpa yourdad11
+[11:46:31] [Thread-21/INFO]: UUID of player Help434343 is 0109ceb8-ace9-3ce5-b542-91624a87bdc5
+[11:46:31] [Server thread/INFO]: Help434343[/[0:0:0:0:0:0:0:1]:39938] logged in with entity id 5438 at ([world]487.3576552743503, 115.0, 840.4359625551419)
+[11:46:36] [Async Chat Thread - #3/INFO]: <kotalkleen> cool base[m
+
+[11:46:42] [Server thread/INFO]: Dude issued server command: /imyou_pops
+[11:46:46] [Async Chat Thread - #3/INFO]: <Dude> thx[m
+
+[11:46:50] [Async Chat Thread - #3/INFO]: <kotalkleen> np[m
+
+[11:47:06] [Server thread/INFO]: Dude issued server command: /tpa imyou_pops
+[11:47:11] [Async Chat Thread - #3/INFO]: <kotalkleen> hey davis[m
+
+[11:47:19] [Async Chat Thread - #3/INFO]: <Help434343> ?[m
+
+[11:47:22] [Async Chat Thread - #3/INFO]: <kotalkleen> can i have my stuff back[m
+
+[11:47:29] [Async Chat Thread - #3/INFO]: <Help434343> what did you have[m
+
+[11:47:44] [Async Chat Thread - #3/INFO]: <kotalkleen> wood, dirt, planks, and tools[m
+
+[11:47:56] [Server thread/INFO]: Dude issued server command: /tell help434343 should i kill him
+[11:47:59] [Server thread/INFO]: mb_Max issued server command: /home chickens
+[11:48:05] [Server thread/INFO]: mb_Max issued server command: /home chicken
+[11:48:12] [Async Chat Thread - #3/INFO]: <kotalkleen> thank you[m
+
+[11:48:14] [Server thread/INFO]: Help434343 issued server command: /tell dude idk
+[11:48:21] [Async Chat Thread - #3/INFO]: <kotalkleen> i will be on my way now[m
+
+[11:48:23] [Async Chat Thread - #3/INFO]: <Imyou_pops> Davis what happened[m
+
+[11:48:31] [Async Chat Thread - #3/INFO]: <kotalkleen> byee[m
+
+[11:48:35] [Async Chat Thread - #3/INFO]: <Imyou_pops> where is all your stuff[m
+
+[11:48:37] [Server thread/INFO]: Dude issued server command: /tpa imyou_pops
+[11:49:03] [Server thread/INFO]: mb_Max issued server command: /home davids
+[11:49:17] [Server thread/INFO]: Dude issued server command: /tpa imyou_pops
+[11:49:32] [Async Chat Thread - #3/INFO]: <mb_Max> davis im here to enchant[m
+
+[11:49:48] [Async Chat Thread - #3/INFO]: <Dude> yo whats up[m
+
+[11:49:51] [Async Chat Thread - #3/INFO]: <mb_Max> wsp dude[m
+
+[11:50:06] [Async Chat Thread - #3/INFO]: <Dude> the e table is back there[m
+
+[11:50:25] [Thread-22/INFO]: UUID of player Xotiic is 68dd1e56-85b3-35dc-bd38-95ef9af83f00
+[11:50:26] [Server thread/INFO]: Xotiic[/[0:0:0:0:0:0:0:1]:44948] logged in with entity id 6483 at ([world]-1657.6952343032026, 102.0, -227.91785737796974)
+[11:50:29] [Server thread/INFO]: mb_Max issued server command: /home chicken
+[11:50:32] [Async Chat Thread - #3/INFO]: <mb_Max> ight ty[m
+
+[11:51:02] [Server thread/INFO]: Help434343 issued server command: /home mb
+[11:51:09] [Async Chat Thread - #3/INFO]: <kotalkleen> oh and i had a furnus and a crafting table[m
+
+[11:51:14] [Async Chat Thread - #3/INFO]: <mb_Max> i need food[m
+
+[11:51:23] [Server thread/INFO]: special_friend was blown up by Creeper
+[11:51:24] [Server thread/INFO]: Dude issued server command: /home rbase1
+[11:51:29] [Async Chat Thread - #3/INFO]: <kotalkleen> ouch[m
+
+[11:51:39] [Server thread/INFO]: special_friend issued server command: /back
+[11:51:58] [Server thread/INFO]: Dude issued server command: /tpa help434343
+[11:52:00] [Server thread/INFO]: Help434343 issued server command: /tpaccept
+[11:52:05] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mCreating backups, the server may lag for a little while...[m
+
+[11:52:05] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mDoing backups for "./world_the_end"[m
+
+[11:52:05] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mUploading file to Google Drive[m
+
+[11:52:07] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 21 file(s) for the current backup location in Google Drive which exceeds the limit of 20, deleting[m
+
+[11:52:08] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mFile uploaded in 3.03 seconds (71.05KB/s)[m
+
+[11:52:08] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 1 file(s) which exceeds the local limit of 0, deleting oldest[m
+
+[11:52:08] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mDoing backups for "./world"[m
+
+[11:52:11] [Async Chat Thread - #3/INFO]: <mb_Max> bruh[m
+
+[11:52:13] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mUploading file to Google Drive[m
+
+[11:52:16] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 21 file(s) for the current backup location in Google Drive which exceeds the limit of 20, deleting[m
+
+[11:52:17] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mFile uploaded in 4.28 seconds (9918.6KB/s)[m
+
+[11:52:17] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 1 file(s) which exceeds the local limit of 0, deleting oldest[m
+
+[11:52:17] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mDoing backups for "./world_nether"[m
+
+[11:52:17] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mUploading file to Google Drive[m
+
+[11:52:18] [Server thread/INFO]: Dude issued server command: /sethome mb
+[11:52:19] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 21 file(s) for the current backup location in Google Drive which exceeds the limit of 20, deleting[m
+
+[11:52:20] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mFile uploaded in 2.82 seconds (674.83KB/s)[m
+
+[11:52:20] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 1 file(s) which exceeds the local limit of 0, deleting oldest[m
+
+[11:52:20] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mDoing backups for "plugins"[m
+
+[11:52:22] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mUploading file to Google Drive[m
+
+[11:52:24] [Server thread/INFO]: Dude issued server command: /home base
+[11:52:24] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 21 file(s) for the current backup location in Google Drive which exceeds the limit of 20, deleting[m
+
+[11:52:25] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mFile uploaded in 3.27 seconds (4908.95KB/s)[m
+
+[11:52:25] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 1 file(s) which exceeds the local limit of 0, deleting oldest[m
+
+[11:52:25] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mBackup to [0;33;22mGoogle Drive[0;36;22m complete[m
+
+[11:52:25] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mBackup complete[m
+
+[11:52:25] [Craft Scheduler Thread - 11/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThe next backup is in 59 minutes[m
+
+[11:52:40] [Server thread/INFO]: Dude issued server command: /tpa imyou_pops
+[11:52:44] [Server thread/INFO]: kotalkleen has just earned the achievement [Monster Hunter]
+[11:52:56] [Async Chat Thread - #3/INFO]: <mb_Max> im going to make a new base[m
+
+[11:53:02] [Server thread/INFO]: special_friend issued server command: /home cooler
+[11:53:02] [Thread-23/INFO]: UUID of player billybobjr123 is 1e91d3b4-aad0-3117-93a3-a29fcdc9c6e9
+[11:53:02] [Server thread/INFO]: billybobjr123[/[0:0:0:0:0:0:0:1]:60540] logged in with entity id 7670 at ([world]145.30000001192093, 77.0, 262.84293619563755)
+[11:53:13] [Async Chat Thread - #3/INFO]: <kotalkleen> mind if i have food[m
+
+[11:53:14] [Server thread/INFO]: billybobjr123 issued server command: /ogin password
+[11:53:23] [Server thread/INFO]: Help434343 issued server command: /home Base
+[11:53:31] [Server thread/INFO]: Xotiic issued server command: /homes
+[11:53:32] [Async Chat Thread - #3/INFO]: <kotalkleen> thanks[m
+
+[11:53:32] [Server thread/INFO]: Help434343 issued server command: /home Parker
+[11:53:33] [Async Chat Thread - #3/INFO]: <Imyou_pops> Get on my level[m
+
+[11:53:39] [Server thread/INFO]: mb_Max issued server command: /tpahere billybobjr123
+[11:53:47] [Server thread/INFO]: billybobjr123 issued server command: /tpaccept
+[11:54:10] [Server thread/INFO]: Dude issued server command: /home rbase1
+[11:54:31] [Server thread/INFO]: billybobjr123 issued server command: /withdraw
+[11:54:41] [Server thread/INFO]: billybobjr123 issued server command: /withdraw
+[11:57:14] [Server thread/INFO]: kotalkleen lost connection: Disconnected
+[11:57:14] [Server thread/INFO]: kotalkleen left the game.
+[11:57:16] [Server thread/INFO]: Dude issued server command: /home base
+[11:58:56] [Server thread/INFO]: mb_Max lost connection: Disconnected
+[11:58:56] [Server thread/INFO]: mb_Max left the game.
+[11:59:47] [Thread-25/INFO]: UUID of player KillAllNiggers69 is 4a4954b6-a0e2-3246-85bc-a45fd69ab942
+[11:59:47] [Server thread/INFO]: KillAllNiggers69[/[0:0:0:0:0:0:0:1]:36946] logged in with entity id 10565 at ([world]284.6546156910456, 71.0, 134.0347910436211)
+[12:00:03] [Thread-26/INFO]: UUID of player mb_kaden is 5f92598c-3984-3c1d-823f-986077f0eb5e
+[12:00:03] [Server thread/INFO]: mb_kaden[/[0:0:0:0:0:0:0:1]:57832] logged in with entity id 10773 at ([world]132.57432574231078, 5.0, 236.54700152979964)
+[12:00:16] [Server thread/INFO]: special_friend lost connection: Disconnected
+[12:00:16] [Server thread/INFO]: special_friend left the game.
+[12:00:18] [Thread-27/INFO]: UUID of player mb_Max is 506a9395-5364-36d5-a13c-bec911986e98
+[12:00:18] [Server thread/INFO]: mb_Max[/[0:0:0:0:0:0:0:1]:41880] logged in with entity id 11110 at ([world]139.88661787500027, 5.0, 239.35930740145275)
+[12:00:44] [Server thread/INFO]: mb_kaden issued server command: /tpa m_Max
+[12:00:48] [Server thread/INFO]: mb_Max issued server command: /tpa mbkaden
+[12:00:56] [Thread-28/INFO]: UUID of player Elijah_cool_21 is 18203529-8de6-36ff-b969-19d5bd142de1
+[12:00:56] [Server thread/INFO]: Elijah_cool_21[/[0:0:0:0:0:0:0:1]:46556] logged in with entity id 11321 at ([world]158.69999998807907, 74.0, 255.33403313492371)
+[12:01:09] [Server thread/INFO]: mb_kaden issued server command: /tpa mb_Max
+[12:01:11] [Server thread/INFO]: mb_Max issued server command: /tpaccept
+[12:01:22] [Server thread/INFO]: yourdad11 lost connection: Disconnected
+[12:01:22] [Server thread/INFO]: yourdad11 left the game.
+[12:01:23] [Server thread/INFO]: Imyou_pops lost connection: Disconnected
+[12:01:23] [Server thread/INFO]: Imyou_pops left the game.
+[12:01:26] [Server thread/INFO]: Elijah_cool_21 lost connection: Login timed out!
+[12:01:26] [Server thread/INFO]: Elijah_cool_21 left the game.
+[12:01:26] [Server thread/WARN]: handleDisconnection() called twice
+[12:01:27] [Craft Scheduler Thread - 13/WARN]: Exception in thread "Craft Scheduler Thread - 13" 
+[12:01:27] [Craft Scheduler Thread - 13/WARN]: org.apache.commons.lang.UnhandledException: Plugin LoginSecurity v3.2.0 generated an exception while executing task 945
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.Player.getAddress()" because the return value of "com.lenis0012.bukkit.loginsecurity.session.PlayerSession.getPlayer()" is null
+	at com.lenis0012.bukkit.loginsecurity.session.action.LoginAction.run(LoginAction.java:26)
+	at com.lenis0012.bukkit.loginsecurity.session.PlayerSession.performAction(PlayerSession.java:169)
+	at com.lenis0012.bukkit.loginsecurity.commands.CommandLogin.lambda$execute$1(CommandLogin.java:67)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 4 more
+
+[12:01:27] [Server thread/WARN]: [LoginSecurity] Task #946 for LoginSecurity v3.2.0 generated an exception
+java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.Player.removePotionEffect(org.bukkit.potion.PotionEffectType)" because "player" is null
+	at com.lenis0012.bukkit.loginsecurity.session.AuthAction.lambda$rehabPlayer$0(AuthAction.java:54) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[12:01:31] [Server thread/INFO]: Help434343 lost connection: Disconnected
+[12:01:31] [Server thread/INFO]: Help434343 left the game.
+[12:01:48] [Server thread/INFO]: mb_Max issued server command: /tell leijah_cool_21 can you gift me some hearts
+[12:01:48] [Server thread/INFO]: [mb_Max: That player cannot be found]
+[12:03:10] [Server thread/INFO]: mb_kaden has just earned the achievement [Time to Strike!]
+[12:05:20] [Server thread/INFO]: billybobjr123 was slain by mb_kaden
+[12:05:23] [Server thread/INFO]: KillAllNiggers69 was shot by Skeleton
+[12:05:40] [Thread-29/INFO]: UUID of player Elijah_cool_21 is 18203529-8de6-36ff-b969-19d5bd142de1
+[12:05:40] [Server thread/INFO]: Elijah_cool_21[/[0:0:0:0:0:0:0:1]:44976] logged in with entity id 12954 at ([world]158.69999998807907, 74.0, 255.33403313492371)
+[12:05:55] [Server thread/INFO]: Elijah_cool_21 lost connection: Disconnected
+[12:05:55] [Server thread/INFO]: Elijah_cool_21 left the game.
+[12:06:11] [Thread-30/INFO]: UUID of player Elijah_cool_21 is 18203529-8de6-36ff-b969-19d5bd142de1
+[12:06:11] [Server thread/INFO]: Elijah_cool_21[/[0:0:0:0:0:0:0:1]:33064] logged in with entity id 13037 at ([world]158.69999998807907, 74.0, 255.33403313492371)
+[12:06:21] [Server thread/INFO]: KillAllNiggers69 issued server command: /tpa Elijah_cool_21
+[12:06:24] [Server thread/INFO]: billybobjr123 issued server command: /back
+[12:06:26] [Server thread/INFO]: Elijah_cool_21 lost connection: Disconnected
+[12:06:26] [Server thread/INFO]: Elijah_cool_21 left the game.
+[12:06:38] [Server thread/INFO]: KillAllNiggers69 lost connection: Disconnected
+[12:06:38] [Server thread/INFO]: KillAllNiggers69 left the game.
+[12:06:42] [Server thread/INFO]: Xotiic lost connection: Disconnected
+[12:06:42] [Server thread/INFO]: Xotiic left the game.
+[12:06:42] [Server thread/INFO]: Dude lost connection: Disconnected
+[12:06:42] [Server thread/INFO]: Dude left the game.
+[12:06:47] [Thread-31/INFO]: UUID of player Elijah_cool_21 is 18203529-8de6-36ff-b969-19d5bd142de1
+[12:06:47] [Server thread/INFO]: Elijah_cool_21[/[0:0:0:0:0:0:0:1]:35064] logged in with entity id 13173 at ([world]158.69999998807907, 74.0, 255.33403313492371)
+[12:07:02] [Server thread/INFO]: Elijah_cool_21 lost connection: Disconnected
+[12:07:02] [Server thread/INFO]: Elijah_cool_21 left the game.
+[12:07:04] [Server thread/INFO]: mb_kaden issued server command: /withdraw
+[12:07:18] [Thread-32/INFO]: UUID of player Elijah_cool_21 is 18203529-8de6-36ff-b969-19d5bd142de1
+[12:07:19] [Server thread/INFO]: Elijah_cool_21[/[0:0:0:0:0:0:0:1]:43562] logged in with entity id 13193 at ([world]158.69999998807907, 74.0, 255.33403313492371)
+[12:07:33] [Server thread/INFO]: Elijah_cool_21 lost connection: Disconnected
+[12:07:33] [Server thread/INFO]: Elijah_cool_21 left the game.
+[12:08:20] [Async Chat Thread - #4/INFO]: <mb_Max> i love eating rotten flesh[m
+
+[12:08:29] [Server thread/INFO]: billybobjr123 issued server command: /monkey
+[12:10:06] [Thread-33/INFO]: UUID of player not_me is b3b0fbc9-9e40-355c-8f31-2391e8b02d81
+[12:10:06] [Server thread/INFO]: not_me[/[0:0:0:0:0:0:0:1]:38134] logged in with entity id 13554 at ([world]157.59530547472338, 70.0, 245.00994393704462)
+[12:10:17] [Server thread/INFO]: not_me lost connection: Disconnected
+[12:10:17] [Server thread/INFO]: not_me left the game.
+[12:10:47] [Thread-34/INFO]: UUID of player Elijah_cool_21 is 18203529-8de6-36ff-b969-19d5bd142de1
+[12:10:47] [Server thread/INFO]: Elijah_cool_21[/[0:0:0:0:0:0:0:1]:58312] logged in with entity id 13639 at ([world]158.69999998807907, 74.0, 255.33403313492371)
+[12:11:02] [Server thread/INFO]: Elijah_cool_21 lost connection: Disconnected
+[12:11:02] [Server thread/INFO]: Elijah_cool_21 left the game.
+[12:11:13] [Thread-35/INFO]: UUID of player Elijah_cool_21 is 18203529-8de6-36ff-b969-19d5bd142de1
+[12:11:13] [Server thread/INFO]: Elijah_cool_21[/[0:0:0:0:0:0:0:1]:57846] logged in with entity id 13723 at ([world]158.69999998807907, 74.0, 255.33403313492371)
+[12:11:28] [Server thread/INFO]: Elijah_cool_21 lost connection: Disconnected
+[12:11:28] [Server thread/INFO]: Elijah_cool_21 left the game.
+[12:13:24] [Server thread/INFO]: mb_kaden lost connection: Disconnected
+[12:13:24] [Server thread/INFO]: mb_kaden left the game.
+[12:13:48] [Server thread/INFO]: billybobjr123 lost connection: Disconnected
+[12:13:48] [Server thread/INFO]: billybobjr123 left the game.
+[12:14:16] [Server thread/INFO]: mb_Max lost connection: Disconnected
+[12:14:16] [Server thread/INFO]: mb_Max left the game.
+[12:14:38] [Thread-36/INFO]: UUID of player narlywilbert is ed1b6171-8891-3480-9d2e-760cf626632e
+[12:14:38] [Server thread/INFO]: narlywilbert[/[0:0:0:0:0:0:0:1]:38154] logged in with entity id 14606 at ([world]106.69999998807906, 70.0, 19.782122801215635)
+[12:15:29] [Server thread/INFO]: narlywilbert lost connection: Disconnected
+[12:15:29] [Server thread/INFO]: narlywilbert left the game.
+[12:15:56] [Thread-37/INFO]: UUID of player narlywilbert is ed1b6171-8891-3480-9d2e-760cf626632e
+[12:15:56] [Server thread/INFO]: narlywilbert[/[0:0:0:0:0:0:0:1]:59430] logged in with entity id 14759 at ([world]105.41586672055645, 71.0, 22.117729382977437)
+[12:17:02] [Thread-38/INFO]: UUID of player mb_kaden is 5f92598c-3984-3c1d-823f-986077f0eb5e
+[12:17:02] [Server thread/INFO]: mb_kaden[/[0:0:0:0:0:0:0:1]:58898] logged in with entity id 14902 at ([world]113.69999998807907, 3.0, 199.49745764439885)
+[12:17:48] [Server thread/INFO]: mb_kaden lost connection: Disconnected
+[12:17:48] [Server thread/INFO]: mb_kaden left the game.
+[12:18:11] [Server thread/INFO]: narlywilbert lost connection: Disconnected
+[12:18:11] [Server thread/INFO]: narlywilbert left the game.
+[12:18:30] [Thread-39/INFO]: UUID of player narlywilbert is ed1b6171-8891-3480-9d2e-760cf626632e
+[12:18:30] [Server thread/INFO]: narlywilbert[/[0:0:0:0:0:0:0:1]:43664] logged in with entity id 15401 at ([world]108.15500130482933, 67.0, 13.153058724629252)
+[12:19:00] [Server thread/INFO]: narlywilbert lost connection: Login timed out!
+[12:19:00] [Server thread/INFO]: narlywilbert left the game.
+[12:19:01] [Server thread/WARN]: handleDisconnection() called twice
+[12:20:00] [Thread-40/INFO]: UUID of player narlywilbert is ed1b6171-8891-3480-9d2e-760cf626632e
+[12:20:00] [Server thread/INFO]: narlywilbert[/[0:0:0:0:0:0:0:1]:57730] logged in with entity id 15493 at ([world]108.15500130482933, 67.0, 13.153058724629252)
+[12:20:30] [Server thread/INFO]: narlywilbert lost connection: Login timed out!
+[12:20:30] [Server thread/INFO]: narlywilbert left the game.
+[12:20:31] [Server thread/WARN]: handleDisconnection() called twice
+[12:20:49] [Thread-41/INFO]: UUID of player Dude is c8e02bb3-0fd2-341d-8414-ea91971b2d00
+[12:20:50] [Server thread/INFO]: Dude[/[0:0:0:0:0:0:0:1]:54420] logged in with entity id 15584 at ([world]557.6999999880791, 11.0, 882.6999999880791)
+[12:21:25] [Server thread/WARN]: Dude moved wrongly!
+[12:22:22] [Server thread/INFO]: Dude issued server command: /nome base
+[12:22:28] [Server thread/INFO]: Dude issued server command: /home base
+[12:22:41] [Thread-42/INFO]: UUID of player KillAllNiggers69 is 4a4954b6-a0e2-3246-85bc-a45fd69ab942
+[12:22:41] [Server thread/INFO]: KillAllNiggers69[/[0:0:0:0:0:0:0:1]:44810] logged in with entity id 15926 at ([world]148.5, 72.0, 256.5)
+[12:23:00] [Thread-43/INFO]: UUID of player Xotiic is 68dd1e56-85b3-35dc-bd38-95ef9af83f00
+[12:23:00] [Server thread/INFO]: Xotiic[/[0:0:0:0:0:0:0:1]:40498] logged in with entity id 16215 at ([world]-1590.699999988079, 12.0, -282.91497902756527)
+[12:23:15] [Async Chat Thread - #5/INFO]: <KillAllNiggers69> whos in the game[m
+
+[12:23:25] [Async Chat Thread - #5/INFO]: <Dude> press tab to see[m
+
+[12:23:39] [Async Chat Thread - #5/INFO]: <KillAllNiggers69> i only have 4 hearts[m
+
+[12:23:58] [Async Chat Thread - #5/INFO]: <KillAllNiggers69> i need a bed[m
+
+[12:24:10] [Async Chat Thread - #5/INFO]: <Xotiic> kill sheep[m
+
+[12:24:36] [Server thread/INFO]: KillAllNiggers69 issued server command: /set daytime
+[12:24:42] [Server thread/INFO]: KillAllNiggers69 issued server command: /help
+[12:24:53] [Thread-44/INFO]: UUID of player Connor is 816ee842-f411-38e1-b5eb-8bd9b0a72eee
+[12:24:53] [Server thread/INFO]: Connor[/[0:0:0:0:0:0:0:1]:39288] logged in with entity id 16601 at ([world]537.139627834204, 69.0, 844.8423504212699)
+[12:25:30] [Server thread/INFO]: KillAllNiggers69 issued server command: /help n
+[12:25:40] [Server thread/INFO]: KillAllNiggers69 issued server command: /newhome
+[12:26:11] [Server thread/INFO]: KillAllNiggers69 issued server command: /sethome pdawg
+[12:26:26] [Server thread/INFO]: Dude issued server command: /home base
+[12:27:39] [Async Chat Thread - #6/INFO]: <KillAllNiggers69> make it day[m
+
+[12:28:03] [Async Chat Thread - #6/INFO]: <KillAllNiggers69> someone sleep[m
+
+[12:28:16] [Async Chat Thread - #6/INFO]: <Dude> davis tp[m
+
+[12:28:26] [Async Chat Thread - #6/INFO]: <Dude> connor look[m
+
+[12:28:32] [Thread-46/INFO]: UUID of player yourdad11 is 6c23efa0-d1a9-363e-a6d1-e0ff1b43678d
+[12:28:32] [Server thread/INFO]: yourdad11[/[0:0:0:0:0:0:0:1]:45682] logged in with entity id 17805 at ([world]-2148.772516718324, 103.0, -758.7572225473938)
+[12:28:55] [Server thread/INFO]: Connor issued server command: /tpa Killallniggers69
+[12:29:01] [Server thread/INFO]: KillAllNiggers69 issued server command: /tpaccept
+[12:29:04] [Thread-47/INFO]: UUID of player special_friend is d6b081a3-ae38-3ea4-8097-841a61cd373f
+[12:29:05] [Server thread/INFO]: special_friend[/[0:0:0:0:0:0:0:1]:56648] logged in with entity id 17944 at ([world]129.58207512537365, 71.0, 259.368820419955)
+[12:29:32] [Async Chat Thread - #7/INFO]: <KillAllNiggers69> thanks[m
+
+[12:29:46] [Thread-48/INFO]: UUID of player Elijah_cool_21 is 18203529-8de6-36ff-b969-19d5bd142de1
+[12:29:46] [Server thread/INFO]: Elijah_cool_21[/[0:0:0:0:0:0:0:1]:56296] logged in with entity id 18308 at ([world]158.69999998807907, 74.0, 255.33403313492371)
+[12:30:05] [Server thread/INFO]: Dude issued server command: /tpa elijah_cool_21
+[12:30:17] [Server thread/INFO]: Elijah_cool_21 lost connection: Login timed out!
+[12:30:17] [Server thread/INFO]: Elijah_cool_21 left the game.
+[12:30:17] [Server thread/WARN]: handleDisconnection() called twice
+[12:30:24] [Thread-49/INFO]: UUID of player Elijah_cool_21 is 18203529-8de6-36ff-b969-19d5bd142de1
+[12:30:24] [Server thread/INFO]: Elijah_cool_21[/[0:0:0:0:0:0:0:1]:55682] logged in with entity id 18552 at ([world]158.69999998807907, 74.0, 255.33403313492371)
+[12:30:39] [Server thread/INFO]: Elijah_cool_21 lost connection: Disconnected
+[12:30:39] [Server thread/INFO]: Elijah_cool_21 left the game.
+[12:30:39] [Server thread/INFO]: KillAllNiggers69 lost connection: Disconnected
+[12:30:39] [Server thread/INFO]: KillAllNiggers69 left the game.
+[12:30:45] [Server thread/INFO]: Xotiic issued server command: /home home
+[12:31:16] [Server thread/INFO]: Connor issued server command: /home Skybase
+[12:31:36] [Server thread/INFO]: Connor issued server command: /home strip
+[12:32:21] [Server thread/INFO]: Dude issued server command: /tpa yourdad11
+[12:32:42] [Thread-50/INFO]: UUID of player Imyou_pops is efd578b1-8269-363f-8fcf-202b68966765
+[12:32:42] [Server thread/INFO]: Imyou_pops[/[0:0:0:0:0:0:0:1]:35184] logged in with entity id 19642 at ([world]-2132.107541037614, 103.0, -751.3801708479597)
+[12:32:51] [Server thread/INFO]: Dude issued server command: /tpa imyou_pops
+[12:33:48] [Thread-51/INFO]: UUID of player Help434343 is 0109ceb8-ace9-3ce5-b542-91624a87bdc5
+[12:33:48] [Server thread/INFO]: Help434343[/[0:0:0:0:0:0:0:1]:56802] logged in with entity id 20232 at ([world]-662.1883168712409, 68.0, 130.3391399469069)
+[12:34:10] [Server thread/INFO]: yourdad11 issued server command: /home stripv2
+[12:34:21] [Server thread/INFO]: yourdad11 issued server command: /home stripv2
+[12:34:26] [Server thread/INFO]: special_friend issued server command: /home cooler
+[12:34:30] [Server thread/INFO]: yourdad11 issued server command: /home STRIPV2
+[12:34:36] [Server thread/INFO]: Help434343 issued server command: /home Base
+[12:34:37] [Server thread/INFO]: yourdad11 issued server command: /home strip
+[12:35:03] [Server thread/INFO]: yourdad11 lost connection: Disconnected
+[12:35:03] [Server thread/INFO]: yourdad11 left the game.
+[12:35:06] [Server thread/INFO]: Imyou_pops issued server command: /home Crib
+[12:35:17] [Thread-52/INFO]: UUID of player yourdad11 is 6c23efa0-d1a9-363e-a6d1-e0ff1b43678d
+[12:35:17] [Server thread/INFO]: yourdad11[/[0:0:0:0:0:0:0:1]:50234] logged in with entity id 21071 at ([world]-2021.699999988079, 11.0, -959.0802410518985)
+[12:35:25] [Server thread/INFO]: Imyou_pops issued server command: /makehome Crib
+[12:35:38] [Server thread/INFO]: Help434343 issued server command: /home mb
+[12:35:58] [Async Chat Thread - #8/INFO]: <Dude> davis tp[m
+
+[12:36:06] [Server thread/INFO]: Help434343 issued server command: /tpa dude
+[12:36:09] [Server thread/INFO]: Dude issued server command: /tpaccept
+[12:36:29] [Async Chat Thread - #8/INFO]: <Help434343> where did you get this from[m
+
+[12:36:34] [Server thread/INFO]: yourdad11 issued server command: /home cribv2
+[12:36:39] [Async Chat Thread - #8/INFO]: <Dude> lvl 3 enchant[m
+
+[12:36:51] [Async Chat Thread - #8/INFO]: <Dude> can i have it back[m
+
+[12:37:11] [Async Chat Thread - #8/INFO]: <Dude> give it back bro[m
+
+[12:37:26] [Async Chat Thread - #8/INFO]: <Help434343> im gonna make a new sword[m
+
+[12:37:27] [Async Chat Thread - #8/INFO]: <Dude> ty[m
+
+[12:37:27] [Server thread/INFO]: special_friend issued server command: /home cooler
+[12:37:28] [Async Chat Thread - #8/INFO]: <Help434343> o enchant[m
+
+[12:37:29] [Async Chat Thread - #8/INFO]: <Help434343> to[m
+
+[12:37:35] [Server thread/INFO]: Imyou_pops issued server command: /home Crib
+[12:37:58] [Thread-53/INFO]: UUID of player imcash67 is 8653785a-1a4a-3bac-89f8-5c63d7e78a66
+[12:37:58] [Server thread/INFO]: imcash67[/[0:0:0:0:0:0:0:1]:48824] logged in with entity id 22207 at ([world]153.5, 74.0, 259.5)
+[12:38:15] [Server thread/INFO]: Connor issued server command: /delhome strip
+[12:38:21] [Server thread/INFO]: Connor issued server command: /sethome strip
+[12:38:25] [Async Chat Thread - #8/INFO]: <Help434343> the enchants i got are terrible[m
+
+[12:38:28] [Server thread/INFO]: Connor issued server command: /home Skybase
+[12:38:29] [Server thread/INFO]: imcash67 lost connection: Login timed out!
+[12:38:29] [Server thread/INFO]: imcash67 left the game.
+[12:38:29] [Server thread/WARN]: handleDisconnection() called twice
+[12:38:32] [Async Chat Thread - #8/INFO]: <Help434343> so im not doing it[m
+
+[12:38:39] [Thread-54/INFO]: UUID of player imcash67 is 8653785a-1a4a-3bac-89f8-5c63d7e78a66
+[12:38:39] [Server thread/INFO]: imcash67[/[0:0:0:0:0:0:0:1]:43098] logged in with entity id 22532 at ([world]153.5, 74.0, 259.5)
+[12:38:58] [Async Chat Thread - #8/INFO]: <Dude> enchant a diferent sword to re roll the enchants[m
+
+[12:39:11] [Server thread/INFO]: imcash67 issued server command: /tpa special_freind
+[12:39:20] [Server thread/INFO]: Xotiic issued server command: /home home
+[12:39:31] [Server thread/INFO]: imcash67 issued server command: /tpa special_friend
+[12:39:55] [Async Chat Thread - #8/INFO]: <Help434343> still bad[m
+
+[12:40:02] [Server thread/INFO]: imcash67 issued server command: /tpa special_friend
+[12:40:43] [Server thread/INFO]: special_friend issued server command: /tpaccept
+[12:40:50] [Server thread/INFO]: imcash67 issued server command: /tpa special_friend
+[12:40:51] [Server thread/INFO]: special_friend issued server command: /accept
+[12:41:06] [Server thread/INFO]: Dude issued server command: /tpa imcash67
+[12:41:20] [Async Chat Thread - #9/INFO]: <Dude> cash acept my tpa[m
+
+[12:41:26] [Server thread/INFO]: Dude issued server command: /tpa imcash67
+[12:41:31] [Server thread/INFO]: imcash67 issued server command: /no
+[12:41:35] [Async Chat Thread - #9/INFO]: <imcash67> no[m
+
+[12:41:51] [Async Chat Thread - #9/INFO]: <Dude> i will give you food and gear[m
+
+[12:41:53] [Thread-55/INFO]: UUID of player mb_Max is 506a9395-5364-36d5-a13c-bec911986e98
+[12:41:53] [Server thread/INFO]: mb_Max[/[0:0:0:0:0:0:0:1]:55538] logged in with entity id 23463 at ([world]119.69999998807906, 5.0, 256.70793690383357)
+[12:42:00] [Async Chat Thread - #9/INFO]: <Help434343> i rerolled 3 times and got everything bad[m
+
+[12:42:05] [Thread-56/INFO]: UUID of player mb_kaden is 5f92598c-3984-3c1d-823f-986077f0eb5e
+[12:42:05] [Server thread/INFO]: mb_kaden[/[0:0:0:0:0:0:0:1]:52798] logged in with entity id 23487 at ([world]139.0765884733377, 5.0, 235.46688353098367)
+[12:42:07] [Thread-57/INFO]: UUID of player bigzaddy23 is 5d8e182d-6ad0-37cb-ac81-03e30a0b78cc
+[12:42:07] [Server thread/INFO]: bigzaddy23[/[0:0:0:0:0:0:0:1]:52804] logged in with entity id 23527 at ([world]142.5, 75.0, 250.5)
+[12:42:19] [Async Chat Thread - #9/INFO]: <imcash67> im sorry i cant trust you[m
+
+[12:42:28] [Server thread/INFO]: Dude issued server command: /tpa bigzaddy23
+[12:42:31] [Async Chat Thread - #9/INFO]: <Help434343> .tpa imcash67[m
+
+[12:42:38] [Server thread/INFO]: bigzaddy23 lost connection: Login timed out!
+[12:42:38] [Server thread/INFO]: bigzaddy23 left the game.
+[12:42:38] [Server thread/WARN]: handleDisconnection() called twice
+[12:42:42] [Server thread/INFO]: Help434343 issued server command: /tpa imcash23
+[12:42:45] [Thread-58/INFO]: UUID of player bigzaddy23 is 5d8e182d-6ad0-37cb-ac81-03e30a0b78cc
+[12:42:45] [Server thread/INFO]: bigzaddy23[/[0:0:0:0:0:0:0:1]:42388] logged in with entity id 23750 at ([world]142.5, 75.0, 250.5)
+[12:42:48] [Async Chat Thread - #9/INFO]: <mb_kaden> hi help[m
+
+[12:42:49] [Server thread/INFO]: Help434343 issued server command: /tpa imcash67
+[12:42:53] [Async Chat Thread - #9/INFO]: <Help434343> hello[m
+
+[12:42:54] [Server thread/INFO]: imcash67 issued server command: /tpdeny
+[12:42:56] [Server thread/INFO]: imcash67 issued server command: /tpdeny
+[12:42:57] [Server thread/INFO]: imcash67 issued server command: /tpdeny
+[12:42:59] [Server thread/INFO]: imcash67 issued server command: /tpdeny
+[12:43:01] [Server thread/INFO]: imcash67 issued server command: /tpdeny
+[12:43:02] [Server thread/INFO]: imcash67 issued server command: /tpdeny
+[12:43:03] [Server thread/INFO]: imcash67 issued server command: /tpdeny
+[12:43:08] [Async Chat Thread - #9/INFO]: <special_friend> cash, i can make your armor next[m
+
+[12:43:16] [Server thread/INFO]: bigzaddy23 lost connection: Login timed out!
+[12:43:16] [Server thread/INFO]: bigzaddy23 left the game.
+[12:43:16] [Server thread/WARN]: handleDisconnection() called twice
+[12:43:17] [Server thread/INFO]: Help434343 issued server command: /home mb
+[12:43:30] [Server thread/INFO]: Help434343 issued server command: /home Base
+[12:43:32] [Async Chat Thread - #9/INFO]: <imcash67> i need stuff cooper[m
+
+[12:43:33] [Thread-59/INFO]: UUID of player bigzaddy23 is 5d8e182d-6ad0-37cb-ac81-03e30a0b78cc
+[12:43:33] [Server thread/INFO]: bigzaddy23[/[0:0:0:0:0:0:0:1]:40146] logged in with entity id 24011 at ([world]142.5, 75.0, 250.5)
+[12:43:53] [Server thread/INFO]: Help434343 issued server command: /tpa bigzaddy23
+[12:43:57] [Async Chat Thread - #9/INFO]: <mb_kaden> help can u give me armor[m
+
+[12:43:57] [Server thread/INFO]: Dude issued server command: /tpa imyou_pops
+[12:44:04] [Server thread/INFO]: bigzaddy23 lost connection: Login timed out!
+[12:44:04] [Server thread/INFO]: bigzaddy23 left the game.
+[12:44:04] [Server thread/WARN]: handleDisconnection() called twice
+[12:44:06] [Async Chat Thread - #9/INFO]: <Help434343> i dont have extra stuff[m
+
+[12:44:07] [Server thread/INFO]: Connor issued server command: /home Skybase
+[12:44:15] [Async Chat Thread - #9/INFO]: <special_friend> Cash, there is a freaking wither skeleton in our mine[m
+
+[12:44:18] [Async Chat Thread - #9/INFO]: <mb_kaden> ok[m
+
+[12:44:32] [Server thread/INFO]: Help434343 issued server command: /tell yourdad11 give me my sword and pickaxe back
+[12:44:34] [Thread-60/INFO]: UUID of player bigzaddy23 is 5d8e182d-6ad0-37cb-ac81-03e30a0b78cc
+[12:44:34] [Server thread/INFO]: bigzaddy23[/[0:0:0:0:0:0:0:1]:53766] logged in with entity id 24447 at ([world]142.7362172580336, 75.0, 250.01271245422035)
+[12:44:36] [Server thread/INFO]: bigzaddy23 has just earned the achievement [Taking Inventory]
+[12:44:38] [Server thread/INFO]: Dude issued server command: /home mb
+[12:44:49] [Server thread/INFO]: mb_Max issued server command: /tpahere bigzaddy23
+[12:44:52] [Server thread/INFO]: special_friend issued server command: /home cooler
+[12:44:55] [Async Chat Thread - #9/INFO]: <Dude> hi[m
+
+[12:44:57] [Thread-61/INFO]: UUID of player bigbadwolf96 is 5ab386ad-cc0b-3b47-96da-a9382098e6c3
+[12:44:57] [Server thread/INFO]: bigbadwolf96[/[0:0:0:0:0:0:0:1]:45428] logged in with entity id 24530 at ([world]229.5972309364941, 97.0, 315.7588554342428)
+[12:45:04] [Async Chat Thread - #9/INFO]: <mb_Max> yo wsp dude[m
+
+[12:45:04] [Server thread/INFO]: bigzaddy23 lost connection: Login timed out!
+[12:45:04] [Server thread/INFO]: bigzaddy23 left the game.
+[12:45:04] [Server thread/WARN]: handleDisconnection() called twice
+[12:45:06] [Async Chat Thread - #9/INFO]: <mb_kaden> dont kill me[m
+
+[12:45:08] [Server thread/INFO]: Help434343 issued server command: /tpa bigbadwolf96
+[12:45:08] [Async Chat Thread - #9/INFO]: <Dude> nice chicken farm[m
+
+[12:45:10] [Async Chat Thread - #9/INFO]: <Dude> ok[m
+
+[12:45:10] [Thread-62/INFO]: UUID of player bigzaddy23 is 5d8e182d-6ad0-37cb-ac81-03e30a0b78cc
+[12:45:10] [Server thread/INFO]: bigzaddy23[/[0:0:0:0:0:0:0:1]:50036] logged in with entity id 24584 at ([world]142.7362172580336, 75.0, 250.01271245422035)
+[12:45:11] [Async Chat Thread - #9/INFO]: <mb_Max> ty[m
+
+[12:45:16] [Server thread/INFO]: Connor issued server command: /tpa special_fried42
+[12:45:19] [Server thread/INFO]: special_friend issued server command: /home cooler
+[12:45:21] [Thread-63/INFO]: UUID of player Special_boi is 348a16f4-cb18-3302-bdb6-d9f274dffc6b
+[12:45:21] [Server thread/INFO]: Special_boi[/[0:0:0:0:0:0:0:1]:53618] logged in with entity id 24676 at ([world]-1663.6112887404915, 102.0, -224.95866281626326)
+[12:45:22] [Async Chat Thread - #9/INFO]: <mb_Max> kaden is cool[m
+
+[12:45:27] [Async Chat Thread - #9/INFO]: <Dude> can i look around[m
+
+[12:45:32] [Async Chat Thread - #9/INFO]: <mb_Max> ig idc[m
+
+[12:45:36] [Async Chat Thread - #9/INFO]: <special_friend> i almost dies[m
+
+[12:45:41] [Server thread/INFO]: bigzaddy23 lost connection: Login timed out!
+[12:45:41] [Server thread/INFO]: bigzaddy23 left the game.
+[12:45:41] [Server thread/WARN]: handleDisconnection() called twice
+[12:45:46] [Thread-64/INFO]: UUID of player bigzaddy23 is 5d8e182d-6ad0-37cb-ac81-03e30a0b78cc
+[12:45:46] [Server thread/INFO]: bigzaddy23[/[0:0:0:0:0:0:0:1]:40826] logged in with entity id 24777 at ([world]142.8367680087697, 75.0, 250.32134839810237)
+[12:45:52] [Server thread/INFO]: Connor lost connection: Disconnected
+[12:45:52] [Server thread/INFO]: Connor left the game.
+[12:45:55] [Server thread/INFO]: Help434343 lost connection: Disconnected
+[12:45:55] [Server thread/INFO]: Help434343 left the game.
+[12:46:00] [Async Chat Thread - #9/INFO]: <Dude> i gotta go bye[m
+
+[12:46:03] [Server thread/INFO]: mb_Max issued server command: /tpahere
+[12:46:04] [Server thread/INFO]: Dude issued server command: /home base
+[12:46:06] [Async Chat Thread - #9/INFO]: <bigbadwolf96> L[m
+
+[12:46:09] [Server thread/INFO]: Special_boi lost connection: Disconnected
+[12:46:09] [Server thread/INFO]: Special_boi left the game.
+[12:46:14] [Async Chat Thread - #9/INFO]: <mb_kaden> hey dude can i have some armor[m
+
+[12:46:15] [Server thread/INFO]: special_friend lost connection: Disconnected
+[12:46:15] [Server thread/INFO]: special_friend left the game.
+[12:46:16] [Server thread/INFO]: bigzaddy23 lost connection: Login timed out!
+[12:46:16] [Server thread/INFO]: bigzaddy23 left the game.
+[12:46:16] [Server thread/WARN]: handleDisconnection() called twice
+[12:46:20] [Async Chat Thread - #9/INFO]: <Dude> sure[m
+
+[12:46:24] [Server thread/INFO]: Xotiic lost connection: Disconnected
+[12:46:24] [Server thread/INFO]: Xotiic left the game.
+[12:46:29] [Thread-65/INFO]: UUID of player bigzaddy23 is 5d8e182d-6ad0-37cb-ac81-03e30a0b78cc
+[12:46:29] [Server thread/INFO]: bigzaddy23[/[0:0:0:0:0:0:0:1]:56294] logged in with entity id 24882 at ([world]142.8367680087697, 75.0, 250.32134839810237)
+[12:46:32] [Server thread/INFO]: bigbadwolf96 lost connection: Disconnected
+[12:46:32] [Server thread/INFO]: bigbadwolf96 left the game.
+[12:46:32] [Server thread/INFO]: yourdad11 lost connection: Disconnected
+[12:46:32] [Server thread/INFO]: yourdad11 left the game.
+[12:46:33] [Server thread/INFO]: Dude lost connection: Disconnected
+[12:46:33] [Server thread/INFO]: Dude left the game.
+[12:46:36] [Async Chat Thread - #9/INFO]: <mb_kaden> yay[m
+
+[12:46:36] [Server thread/INFO]: Imyou_pops lost connection: Disconnected
+[12:46:36] [Server thread/INFO]: Imyou_pops left the game.
+[12:47:00] [Server thread/INFO]: bigzaddy23 lost connection: Login timed out!
+[12:47:00] [Server thread/INFO]: bigzaddy23 left the game.
+[12:47:00] [Server thread/WARN]: handleDisconnection() called twice
+[12:47:03] [Server thread/INFO]: mb_kaden issued server command: /tpa dude
+[12:47:21] [Thread-66/INFO]: UUID of player bigzaddy23 is 5d8e182d-6ad0-37cb-ac81-03e30a0b78cc
+[12:47:21] [Server thread/INFO]: bigzaddy23[/[0:0:0:0:0:0:0:1]:51998] logged in with entity id 24958 at ([world]142.8367680087697, 75.0, 250.32134839810237)
+[12:47:35] [Server thread/INFO]: mb_Max issued server command: /tpahere bigzaddy23
+[12:47:37] [Server thread/INFO]: imcash67 lost connection: Disconnected
+[12:47:37] [Server thread/INFO]: imcash67 left the game.
+[12:47:43] [Server thread/INFO]: bigzaddy23 issued server command: /tpaccept
+[12:47:44] [Server thread/INFO]: bigzaddy23 issued server command: /tpaccept
+[12:47:46] [Server thread/INFO]: bigzaddy23 issued server command: /tpaccept
+[12:47:46] [Server thread/INFO]: bigzaddy23 issued server command: /tpaccept
+[12:47:46] [Server thread/INFO]: bigzaddy23 issued server command: /tpaccept
+[12:47:46] [Server thread/INFO]: bigzaddy23 issued server command: /tpaccept
+[12:47:47] [Server thread/INFO]: bigzaddy23 issued server command: /tpaccept
+[12:47:51] [Server thread/INFO]: bigzaddy23 lost connection: Login timed out!
+[12:47:51] [Server thread/INFO]: bigzaddy23 left the game.
+[12:47:51] [Server thread/WARN]: handleDisconnection() called twice
+[12:47:57] [Thread-67/INFO]: UUID of player bigzaddy23 is 5d8e182d-6ad0-37cb-ac81-03e30a0b78cc
+[12:47:57] [Server thread/INFO]: bigzaddy23[/[0:0:0:0:0:0:0:1]:55194] logged in with entity id 25002 at ([world]142.8367680087697, 75.0, 250.32134839810237)
+[12:48:42] [Server thread/INFO]: mb_kaden issued server command: /tpa bigzaddy23
+[12:48:47] [Server thread/INFO]: bigzaddy23 issued server command: /tpaccept
+[12:48:47] [Async Chat Thread - #10/INFO]: <mb_Max> bigzaddy can i tp 2 u[m
+
+[12:48:49] [Server thread/INFO]: bigzaddy23 issued server command: /tpaccept
+[12:48:51] [Server thread/INFO]: bigzaddy23 issued server command: /tpaccept
+[12:49:00] [Server thread/INFO]: bigzaddy23 was slain by mb_kaden
+[12:49:14] [Server thread/INFO]: mb_kaden issued server command: /e
+[12:49:14] [Server thread/INFO]: mb_kaden was slain by Zombie
+[12:49:31] [Server thread/INFO]: bigzaddy23 lost connection: Disconnected
+[12:49:31] [Server thread/INFO]: bigzaddy23 left the game.
+[12:49:38] [Server thread/INFO]: mb_kaden issued server command: /back
+[12:49:46] [Server thread/INFO]: mb_kaden lost connection: Disconnected
+[12:49:46] [Server thread/INFO]: mb_kaden left the game.
+[12:49:59] [Server thread/INFO]: mb_Max lost connection: Disconnected
+[12:49:59] [Server thread/INFO]: mb_Max left the game.
+[12:51:09] [Thread-68/INFO]: UUID of player mb_Max is 506a9395-5364-36d5-a13c-bec911986e98
+[12:51:09] [Server thread/INFO]: mb_Max[/[0:0:0:0:0:0:0:1]:38768] logged in with entity id 25141 at ([world]129.91179737694796, 5.0, 232.40101408888742)
+[12:51:40] [Server thread/INFO]: mb_Max lost connection: Login timed out!
+[12:51:40] [Server thread/INFO]: mb_Max left the game.
+[12:51:40] [Server thread/WARN]: handleDisconnection() called twice
+[12:51:46] [Thread-69/INFO]: UUID of player mb_Max is 506a9395-5364-36d5-a13c-bec911986e98
+[12:51:46] [Server thread/INFO]: mb_Max[/[0:0:0:0:0:0:0:1]:55188] logged in with entity id 25150 at ([world]129.91179737694796, 5.0, 232.40101408888742)
+[12:52:05] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mCreating backups, the server may lag for a little while...[m
+
+[12:52:05] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mDoing backups for "./world_the_end"[m
+
+[12:52:05] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mUploading file to Google Drive[m
+
+[12:52:08] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 21 file(s) for the current backup location in Google Drive which exceeds the limit of 20, deleting[m
+
+[12:52:08] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mFile uploaded in 3.14 seconds (68.43KB/s)[m
+
+[12:52:08] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 1 file(s) which exceeds the local limit of 0, deleting oldest[m
+
+[12:52:08] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mDoing backups for "./world"[m
+
+[12:52:12] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mUploading file to Google Drive[m
+
+[12:52:15] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 21 file(s) for the current backup location in Google Drive which exceeds the limit of 20, deleting[m
+
+[12:52:17] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mFile uploaded in 4.77 seconds (9005.04KB/s)[m
+
+[12:52:17] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 1 file(s) which exceeds the local limit of 0, deleting oldest[m
+
+[12:52:17] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mDoing backups for "./world_nether"[m
+
+[12:52:17] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mUploading file to Google Drive[m
+
+[12:52:17] [Server thread/INFO]: mb_Max lost connection: Login timed out!
+[12:52:17] [Server thread/INFO]: mb_Max left the game.
+[12:52:17] [Server thread/WARN]: handleDisconnection() called twice
+[12:52:22] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 21 file(s) for the current backup location in Google Drive which exceeds the limit of 20, deleting[m
+
+[12:52:23] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mFile uploaded in 6.52 seconds (291.85KB/s)[m
+
+[12:52:23] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 1 file(s) which exceeds the local limit of 0, deleting oldest[m
+
+[12:52:23] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mDoing backups for "plugins"[m
+
+[12:52:25] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mUploading file to Google Drive[m
+
+[12:52:27] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 21 file(s) for the current backup location in Google Drive which exceeds the limit of 20, deleting[m
+
+[12:52:28] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mFile uploaded in 3.09 seconds (5201.36KB/s)[m
+
+[12:52:28] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThere are 1 file(s) which exceeds the local limit of 0, deleting oldest[m
+
+[12:52:28] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mBackup to [0;33;22mGoogle Drive[0;36;22m complete[m
+
+[12:52:28] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mBackup complete[m
+
+[12:52:28] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mThe next backup is in 59 minutes[m
+
+[12:52:28] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mDisabling automatic backups due to inactivity[m
+
+[12:53:05] [Thread-70/INFO]: UUID of player mb_Max is 506a9395-5364-36d5-a13c-bec911986e98
+[12:53:05] [Server thread/INFO]: [0;33;22m[[0;31;22mDriveBackupV2[0;33;22m] [0;36;22mEnabling automatic backups[m
+
+[12:53:05] [Server thread/INFO]: mb_Max[/[0:0:0:0:0:0:0:1]:37024] logged in with entity id 25158 at ([world]129.91179737694796, 5.0, 232.40101408888742)
+[12:53:11] [Thread-71/INFO]: UUID of player billybobjr123 is 1e91d3b4-aad0-3117-93a3-a29fcdc9c6e9
+[12:53:11] [Server thread/INFO]: billybobjr123[/[0:0:0:0:0:0:0:1]:37030] logged in with entity id 25161 at ([world]137.0060064732491, 5.0, 238.49666604680598)
+[12:57:51] [Thread-73/INFO]: UUID of player mb_kaden is 5f92598c-3984-3c1d-823f-986077f0eb5e
+[12:57:51] [Server thread/INFO]: mb_kaden[/[0:0:0:0:0:0:0:1]:40116] logged in with entity id 25645 at ([world]176.30000001192093, 67.0, 247.30000001192093)
+[12:58:20] [Server thread/INFO]: mb_kaden issued server command: /tpa mb_Max
+[12:58:24] [Server thread/INFO]: mb_Max issued server command: /tpaccept
+[12:58:25] [Server thread/INFO]: mb_Max issued server command: /
+[12:58:44] [Async Chat Thread - #11/INFO]: <mb_kaden> dude[m
+
+[13:00:43] [Thread-74/INFO]: UUID of player MB_JAMDES is bdfd942d-08cb-3afe-88ca-109aebeee8ec
+[13:00:43] [Server thread/INFO]: MB_JAMDES[/[0:0:0:0:0:0:0:1]:39582] logged in with entity id 26084 at ([world]156.5, 74.0, 259.5)
+[13:01:14] [Server thread/INFO]: MB_JAMDES lost connection: Login timed out!
+[13:01:14] [Server thread/INFO]: MB_JAMDES left the game.
+[13:01:14] [Server thread/WARN]: handleDisconnection() called twice
+[13:01:22] [Thread-75/INFO]: UUID of player MB_JAMDES is bdfd942d-08cb-3afe-88ca-109aebeee8ec
+[13:01:22] [Server thread/INFO]: MB_JAMDES[/[0:0:0:0:0:0:0:1]:52638] logged in with entity id 26194 at ([world]156.5, 74.0, 259.5)
+[13:01:38] [Server thread/INFO]: mb_kaden lost connection: Disconnected
+[13:01:38] [Server thread/INFO]: mb_kaden left the game.
+[13:01:46] [Server thread/INFO]: MB_JAMDES issued server command: /tpa mb_max
+[13:01:54] [Async Chat Thread - #12/INFO]: <MB_JAMDES> can i be team[m
+
+[13:02:04] [Server thread/INFO]: mb_Max issued server command: /tpaccept
+[13:02:09] [Server thread/INFO]: mb_Max issued server command: /
+[13:02:26] [Server thread/INFO]: MB_JAMDES issued server command: /withdraw all
+[13:02:30] [Server thread/INFO]: MB_JAMDES issued server command: /withdraw
+[13:02:35] [Server thread/INFO]: MB_JAMDES issued server command: /withdraw
+[13:02:39] [Server thread/INFO]: MB_JAMDES issued server command: /withdraw
+[13:02:45] [Server thread/INFO]: MB_JAMDES issued server command: /withdraw
+[13:02:54] [Server thread/INFO]: MB_JAMDES issued server command: /withdraw
+[13:02:59] [Server thread/INFO]: MB_JAMDES issued server command: /withdraw
+[13:03:21] [Async Chat Thread - #13/INFO]: <mb_Max> it takes 5 hearts to join btw[m
+
+[13:03:34] [Async Chat Thread - #13/INFO]: <MB_JAMDES> ill give 8 okay[m
+
+[13:03:38] [Server thread/INFO]: MB_JAMDES issued server command: /withdraw
+[13:03:53] [Server thread/INFO]: MB_JAMDES has just earned the achievement [Taking Inventory]
+[13:04:08] [Server thread/INFO]: MB_JAMDES lost connection: Disconnected
+[13:04:08] [Server thread/INFO]: MB_JAMDES left the game.
+[13:04:09] [Server thread/INFO]: mb_Max lost connection: Disconnected
+[13:04:09] [Server thread/INFO]: mb_Max left the game.
+[13:04:18] [Thread-76/INFO]: UUID of player MB_JAMDES is bdfd942d-08cb-3afe-88ca-109aebeee8ec
+[13:04:19] [Server thread/INFO]: MB_JAMDES[/[0:0:0:0:0:0:0:1]:57826] logged in with entity id 26379 at ([world]144.55213271234328, 5.0, 238.67320740626903)
+[13:04:47] [Thread-77/INFO]: UUID of player mb_Max is 506a9395-5364-36d5-a13c-bec911986e98
+[13:04:47] [Server thread/INFO]: mb_Max[/[0:0:0:0:0:0:0:1]:57906] logged in with entity id 26390 at ([world]143.0769085798522, 5.0, 238.64396482190963)
+[13:04:49] [Server thread/INFO]: MB_JAMDES lost connection: Login timed out!
+[13:04:49] [Server thread/INFO]: MB_JAMDES left the game.
+[13:04:49] [Server thread/WARN]: handleDisconnection() called twice
+[13:05:34] [Async Chat Thread - #14/INFO]: <mb_Max> billy bob where is mb jamdes[m
+
+[13:06:16] [Server thread/INFO]: mb_Max issued server command: /home davids
+[13:06:50] [Thread-78/INFO]: UUID of player MB__JAMEz is ce5ef4fe-d6ac-3bc8-9ac0-48a14cb9871d
+[13:06:50] [Server thread/INFO]: MB__JAMEz[/[0:0:0:0:0:0:0:1]:53732] logged in with entity id 26521 at ([world]149.5, 71.0, 255.5)
+[13:07:06] [Server thread/INFO]: mb_Max drowned
+[13:07:23] [Server thread/INFO]: mb_Max lost connection: Disconnected
+[13:07:23] [Server thread/INFO]: mb_Max left the game.
+[13:07:27] [Server thread/INFO]: MB__JAMEz lost connection: Disconnected
+[13:07:27] [Server thread/INFO]: MB__JAMEz left the game.
+[13:07:52] [Thread-79/INFO]: UUID of player mb_Max is 506a9395-5364-36d5-a13c-bec911986e98
+[13:07:53] [Server thread/INFO]: mb_Max[/[0:0:0:0:0:0:0:1]:36542] logged in with entity id 26674 at ([world]148.5, 72.0, 256.5)
+[13:08:07] [Server thread/INFO]: mb_Max issued server command: /back
+[13:08:14] [Server thread/INFO]: mb_Max issued server command: /home davids
+[13:08:23] [Thread-80/INFO]: UUID of player mb_kaden is 5f92598c-3984-3c1d-823f-986077f0eb5e
+[13:08:23] [Server thread/INFO]: mb_kaden[/[0:0:0:0:0:0:0:1]:59568] logged in with entity id 26800 at ([world]167.30000001192093, 40.0, 230.98492373327028)
+[13:08:37] [Server thread/INFO]: mb_kaden lost connection: Disconnected
+[13:08:37] [Server thread/INFO]: mb_kaden left the game.
+[13:08:39] [Server thread/INFO]: billybobjr123 lost connection: Internal Exception: java.io.IOException: Broken pipe
+[13:08:39] [Server thread/INFO]: billybobjr123 left the game.
+[13:09:29] [Thread-81/INFO]: UUID of player mb_kaden is 5f92598c-3984-3c1d-823f-986077f0eb5e
+[13:09:29] [Server thread/INFO]: mb_kaden[/[0:0:0:0:0:0:0:1]:48372] logged in with entity id 26985 at ([world]167.30000001192093, 40.0, 230.98492373327028)
+[13:10:27] [Server thread/INFO]: mb_Max drowned
+[13:10:33] [Server thread/INFO]: mb_Max issued server command: /back
+[13:11:46] [Thread-82/INFO]: UUID of player billybobjr123 is 1e91d3b4-aad0-3117-93a3-a29fcdc9c6e9
+[13:11:46] [Server thread/INFO]: billybobjr123[/[0:0:0:0:0:0:0:1]:38454] logged in with entity id 27752 at ([world]138.56958398401963, 5.0, 238.2262589109036)
+[13:12:00] [Thread-83/INFO]: UUID of player bigbadwolf96 is 5ab386ad-cc0b-3b47-96da-a9382098e6c3
+[13:12:00] [Server thread/INFO]: bigbadwolf96[/[0:0:0:0:0:0:0:1]:33584] logged in with entity id 27967 at ([world]229.69999998807907, 97.0, 315.6238920109399)
+[13:12:20] [Server thread/INFO]: billybobjr123 issued server command: /tpa mb_kaden
+[13:12:24] [Server thread/INFO]: mb_kaden issued server command: /tpaccept
+[13:12:54] [Server thread/INFO]: mb_kaden has just earned the achievement [Monster Hunter]
+[13:13:23] [Server thread/INFO]: mb_Max issued server command: /tpa mb_kaden
+[13:13:43] [Server thread/INFO]: mb_kaden lost connection: Disconnected
+[13:13:43] [Server thread/INFO]: mb_kaden left the game.
+[13:13:48] [Server thread/INFO]: billybobjr123 lost connection: Disconnected
+[13:13:48] [Server thread/INFO]: billybobjr123 left the game.
+[13:13:57] [Server thread/INFO]: mb_Max issued server command: /home chicke
+[13:13:57] [Thread-84/INFO]: UUID of player Help434343 is 0109ceb8-ace9-3ce5-b542-91624a87bdc5
+[13:13:57] [Server thread/INFO]: Help434343[/[0:0:0:0:0:0:0:1]:53278] logged in with entity id 28691 at ([world]507.14198007269556, 100.5, 839.4811597547384)
+[13:14:09] [Server thread/INFO]: mb_Max issued server command: /home chicken
+[13:14:12] [Thread-85/INFO]: UUID of player Connor is 816ee842-f411-38e1-b5eb-8bd9b0a72eee
+[13:14:12] [Server thread/INFO]: Connor[/[0:0:0:0:0:0:0:1]:39496] logged in with entity id 28899 at ([world]573.9013526692437, 67.0, 833.6083734948535)
+[13:14:16] [Server thread/INFO]: mb_Max lost connection: Disconnected
+[13:14:16] [Server thread/INFO]: mb_Max left the game.
+[13:14:28] [Server thread/INFO]: Help434343 lost connection: Login timed out!
+[13:14:28] [Server thread/INFO]: Help434343 left the game.
+[13:14:28] [Server thread/WARN]: handleDisconnection() called twice
+[13:14:32] [Thread-86/INFO]: UUID of player special_friend is d6b081a3-ae38-3ea4-8097-841a61cd373f
+[13:14:32] [Server thread/INFO]: special_friend[/[0:0:0:0:0:0:0:1]:60042] logged in with entity id 29087 at ([world]130.69999998807907, 71.0, 259.30000001192093)
+[13:15:16] [Server thread/INFO]: special_friend lost connection: Disconnected
+[13:15:16] [Server thread/INFO]: special_friend left the game.
+[13:15:34] [Thread-87/INFO]: UUID of player mb_Max is 506a9395-5364-36d5-a13c-bec911986e98
+[13:15:34] [Server thread/INFO]: mb_Max[/[0:0:0:0:0:0:0:1]:45486] logged in with entity id 29756 at ([world]124.63653159688249, 5.0, 236.66614938742038)
+[13:16:09] [Server thread/INFO]: bigbadwolf96 lost connection: Disconnected
+[13:16:09] [Server thread/INFO]: bigbadwolf96 left the game.
+[13:17:26] [Async Chat Thread - #15/INFO]: <mb_Max> hi connor[m
+
+[13:17:32] [Async Chat Thread - #15/INFO]: <Connor> Hid[m
+
+[13:17:40] [Async Chat Thread - #15/INFO]: <Connor> Hi lol[m
+
+[13:17:47] [Async Chat Thread - #15/INFO]: <mb_Max> what stuff do you have[m
+
+[13:17:53] [Async Chat Thread - #15/INFO]: <Connor> Full diamond[m
+
+[13:18:33] [Async Chat Thread - #15/INFO]: <mb_Max> crazy[m
+
+[13:18:49] [Async Chat Thread - #15/INFO]: <mb_Max> how much hearts[m
+
+[13:18:56] [Async Chat Thread - #15/INFO]: <Connor> 20[m
+
+[13:19:18] [Server thread/INFO]: mb_Max issued server command: /i have fifteen half diamond
+[13:20:42] [Server thread/INFO]: Connor lost connection: Disconnected
+[13:20:42] [Server thread/INFO]: Connor left the game.
+[13:20:42] [Server thread/INFO]: mb_Max lost connection: Disconnected
+[13:20:42] [Server thread/INFO]: mb_Max left the game.
+[13:21:10] [Thread-88/INFO]: UUID of player mb_Max is 506a9395-5364-36d5-a13c-bec911986e98
+[13:21:10] [Server thread/INFO]: mb_Max[/[0:0:0:0:0:0:0:1]:47808] logged in with entity id 31212 at ([world]156.69648855489214, 9.0, 228.30000001192093)
